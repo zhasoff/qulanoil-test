@@ -1,0 +1,12 @@
+.banner {
+    &__items {
+        width: 100%;
+        margin-top: 42px;
+        div {
+            background: #C4C4C4;
+            border-radius: 10px;
+            min-height: 387px;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+//base
+@import 'base/null';
+@import 'base/buttons';
+@import 'base/default';
+
+
+//header
+@import 'layouts/header';
+@import 'layouts/navbar';
+@import 'layouts/footer';
+
+//components
+@import 'components/banner';
+@import 'components/advantages';
+@import 'components/catalog';

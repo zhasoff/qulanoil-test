@@ -1,0 +1,107 @@
+.footer {
+    background: #384685;
+    padding-top: 40px;
+    padding-bottom: 43px;
+
+    &__items {
+        &-top {
+            display: flex;
+            flex-direction: row;
+            gap: 27px;
+            &-left {
+
+                p {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+
+                }
+
+                &-table {
+                    display: grid;
+                    gap: 15px;
+
+                    span {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 26px;
+
+                        .dd {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 23px;
+                            min-width: 117px;
+                            color: #FFFFFF;
+                        }
+
+                        .ee {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 23px;
+
+                            color: #FFFFFF;
+                        }
+                    }
+
+                }
+
+                &-insta {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 62px;
+
+                    span {
+
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 28px;
+
+                        color: #FFFFFF;
+
+                    }
+
+                    img {
+                        width: 100%;
+                        max-width: 123px;
+                    }
+                }
+            }
+
+            &-right {
+                .col {
+                    p {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 26px;
+                        margin-bottom: 25px!important;
+                        color: #FFFFFF;
+                    }
+
+                    ul {
+                        display: grid;
+                        gap: 20px;
+                        li {
+                            button {
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 23px;
+                                padding: 0;
+                                color: #FFFFFF;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &-bottom {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+
+            color: #DBDBDB;
+        }
+    }
+}
