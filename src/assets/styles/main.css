@@ -335,6 +335,11 @@ p {
   flex-direction: row;
   gap: 27px;
 }
+@media (max-width: 992px) {
+  .footer__items-top {
+    flex-direction: column;
+  }
+}
 .footer__items-top-left p {
   font-weight: 700;
   font-size: 20px;
@@ -427,6 +432,11 @@ p {
   align-items: center;
   align-content: center;
   gap: 31px;
+}
+@media (max-width: 992px) {
+  .advantages__items {
+    flex-direction: column;
+  }
 }
 .advantages__items-all {
   background: #F4F4F4;
@@ -748,8 +758,10 @@ p {
   text-align: center;
   display: flex;
   justify-content: center;
-  max-width: 100%;
   margin-bottom: 71px;
+}
+.insta__items img {
+  max-width: 100%;
 }
 
 .promo__title {

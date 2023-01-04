@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header />
-    <Navbar />
+    <Header class="m_none" />
+    <Navbar  class="m_none"  />
     <router-view />
     <Footer />
   </div>

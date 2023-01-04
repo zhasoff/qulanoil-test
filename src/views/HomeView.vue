@@ -6,7 +6,7 @@
     <Popular />
     <popularcategory />
     <Promo />
-    <my-works />
+    <my-works class="m_none" />
     <my-insta />
   </div>
 </template>
