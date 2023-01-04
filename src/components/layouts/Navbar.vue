@@ -53,7 +53,7 @@ export default {
             },
             {
                 name: 'ГДЕ ПОСМОТРЕТЬ',
-                route: '#',
+                route: '/about',
                 type: 'button',
             },
         ]
